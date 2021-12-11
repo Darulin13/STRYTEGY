@@ -1,0 +1,2 @@
+# STRYTEGY
+Created with CodeSandbox
