@@ -28,9 +28,11 @@ export const Container = styled.section`
     border: solid 1px;
     border-radius: 50%;
     padding: 4px;
+    color: #191970;
   }
   p {
     font-size: 20px;
+    color: #191970;
   }
   img {
     width: 30%;
@@ -41,7 +43,11 @@ export const Container = styled.section`
     font-size: 20px;
     height: 7vh;
     width: 30%;
-    background-color: yellow;
+    background-color: #f0e68c;
+    color: #191970;
+  }
+  button:hover {
+    background-color: #ffd700;
   }
   p:hover {
     border-bottom: 2px solid;

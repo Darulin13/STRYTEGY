@@ -57,6 +57,7 @@ export function Main() {
           topic1
           topic2
           topic3
+          data
         }
       }
     }
@@ -109,6 +110,7 @@ export function Main() {
         </div>
         <img src={img1.url} alt="Logo" />
       </S.Sec1>
+
       <S.Sec2>
         <h1>{title2}</h1>
         <p>{paragraph2}</p>
@@ -119,6 +121,71 @@ export function Main() {
           <button class="barra2">{button4}</button>
         </div>
       </S.Sec2>
+      <S.Sec3>
+        <img src={gif.url} alt="Imagem" />
+        <div>
+          <h1>{title3}</h1>
+          <p>{paragraph3}</p>
+        </div>
+      </S.Sec3>
+
+      <S.Sec4>
+        <img src={img2.url} alt="Imagem" />
+        <div>
+          <h1>{title4}</h1>
+          <p>{paragraph4}</p>
+        </div>
+      </S.Sec4>
+      <S.Sec5>
+        <h1>{title6}</h1>
+        <img src={img3.url} alt="Imagem" />
+        <ul>
+          <li>{topic1}</li>
+          <li>{topic2}</li>
+          <li>{topic3}</li>
+        </ul>
+      </S.Sec5>
+      <S.Sec6>
+        <div>
+          <article>
+            <img src={img4.url} alt="Imagem" />
+            <h1>{quadrotitle1}</h1>
+          </article>
+          <picture>
+            <img class="symbol" src={s.url} alt="Symbol" />
+            <article>
+              <p>{strytegy}</p>
+              <p>{strytegy}</p>
+            </article>
+          </picture>
+        </div>
+        <div>
+          <article>
+            <img src={img5.url} alt="Imagem" />
+            <h1>{quadrotitle2}</h1>
+          </article>
+          <picture>
+            <img class="symbol" src={s.url} alt="Symbol" />
+            <article>
+              <p>{strytegy}</p>
+              <p>{strytegy}</p>
+            </article>
+          </picture>
+        </div>
+        <div>
+          <article>
+            <img src={img6.url} alt="Imagem" />
+            <h1>{quadrotitle3}</h1>
+          </article>
+          <picture>
+            <img class="symbol" src={s.url} alt="Symbol" />
+            <article>
+              <p>{strytegy}</p>
+              <p>{strytegy}</p>
+            </article>
+          </picture>
+        </div>
+      </S.Sec6>
     </S.Container>
   );
 }
