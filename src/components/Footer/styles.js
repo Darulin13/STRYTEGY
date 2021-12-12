@@ -6,6 +6,7 @@ export const Container = styled.section`
   justify-content: space-around;
   width: 100%;
   height: 150vh;
+  background-color: #e6e6fa;
 `;
 export const Sec = styled.section`
   display: flex;
@@ -48,20 +49,19 @@ export const Sec2 = styled.section`
   justify-content: space-evenly;
 
   div {
-    width: 50%;
+    border-top: 1px inset black;
+    width: 40%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   article {
-    border: solid;
     width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .box {
-    border: solid;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ export const Sec2 = styled.section`
     display: flex;
     flex-direction: column;
 
-    align-items: center;
+    align-items: start;
   }
   h2 {
     font-size: 30px;
@@ -82,11 +82,21 @@ export const Sec2 = styled.section`
   .paragraph {
     font-size: 15px;
     color: #191970;
-    font-weight: 600;
+    font-weight: 200;
     text-align: start;
   }
+  picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+  }
+  img {
+    width: 40%;
+  }
   p {
-    font-size: 14px;
+    font-size: 13px;
     color: #191970;
     font-weight: 200;
     text-align: start;

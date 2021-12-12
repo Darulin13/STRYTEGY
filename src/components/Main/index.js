@@ -146,46 +146,28 @@ export function Main() {
         </ul>
       </S.Sec5>
       <S.Sec6>
-        <div>
-          <article>
-            <img src={img4.url} alt="Imagem" />
-            <h1>{quadrotitle1}</h1>
-          </article>
-          <picture>
-            <img class="symbol" src={s.url} alt="Symbol" />
+        <section>
+          <div>
             <article>
-              <p>{strytegy}</p>
-              <p>{strytegy}</p>
+              <img src={img4.url} alt="Imagem" />
+              <h1>{quadrotitle1}</h1>
             </article>
-          </picture>
-        </div>
-        <div>
-          <article>
-            <img src={img5.url} alt="Imagem" />
-            <h1>{quadrotitle2}</h1>
-          </article>
-          <picture>
-            <img class="symbol" src={s.url} alt="Symbol" />
+          </div>
+          <div>
             <article>
-              <p>{strytegy}</p>
-              <p>{strytegy}</p>
+              <img src={img5.url} alt="Imagem" />
+              <h1>{quadrotitle2}</h1>
             </article>
-          </picture>
-        </div>
-        <div>
-          <article>
-            <img src={img6.url} alt="Imagem" />
-            <h1>{quadrotitle3}</h1>
-          </article>
-          <picture>
-            <img class="symbol" src={s.url} alt="Symbol" />
-            <article class="info">
-              <p>{strytegy}</p>
-              <p>{strytegy}</p>
+          </div>
+          <div>
+            <article>
+              <img src={img6.url} alt="Imagem" />
+              <h1>{quadrotitle3}</h1>
             </article>
-          </picture>
-        </div>
+          </div>
+        </section>
       </S.Sec6>
+      <button>{seemore}</button>
     </S.Container>
   );
 }

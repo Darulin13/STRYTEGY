@@ -6,6 +6,17 @@ export const Container = styled.section`
   flex-direction: column;
   justify-content: space-evenly;
   height: 450vh;
+  align-items: center;
+  button {
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    height: 5.5vh;
+    width: 10%;
+    background-color: #ffd700;
+    align-items: center;
+    color: #191970;
+  }
 `;
 export const Sec1 = styled.section`
   width: 100%;
@@ -25,7 +36,7 @@ export const Sec1 = styled.section`
   }
   button {
     border: none;
-    border-radius: 10%;
+    border-radius: 5%;
     font-size: 20px;
     height: 9vh;
     width: 40%;
@@ -59,8 +70,9 @@ export const Sec2 = styled.section`
     width: 65%;
     text-align: center;
     height: 14vh;
+    border-radius: none;
     background-color: white;
-    border-right: none;
+    border: none;
     color: #191970;
   }
   button:hover {
@@ -81,9 +93,11 @@ export const Sec2 = styled.section`
   .barra {
     border-right: 1px solid;
     border-left: 1px solid;
+    border-radius: none;
   }
   .barra2 {
     border-left: 1px solid;
+    border-radius: none;
   }
 `;
 export const Sec3 = styled.section`
@@ -166,48 +180,43 @@ export const Sec6 = styled.section`
   flex-direction: row;
   justify-content: space-evenly;
 
-  align-items: center;
+  section {
+    border-top: 1px inset black;
+    padding-top: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
   div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 30%;
-    border: solid;
+    width: 25%;
+    align-items: center;
+    padding-top: 20px;
+  }
+  div:hover {
+    border: #4b0082 2px solid;
+    border-radius: 2%;
   }
   h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     color: black;
-        align-self: center;
+    align-self: center;
+    width: 90%;
   }
-  p {
-    
-  }
+
   img {
-    width: 80%;
-    border: solid green;
+    width: 90%;
+    border: solid 2px #e6e6fa;
   }
   article {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    border: solid blue;
+    justify-content: space-around;
     align-items: center;
-    
-  }
-  picture {
-    border: solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    align-self: start;
-    height:8vh;
-
-  }
-  .info{
-    height:5vh;
-  }
-  .symbol {
-    border-radius: 50%;
-    width: 20%;
   }
 `;

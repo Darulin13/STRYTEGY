@@ -92,6 +92,10 @@ export function Footer() {
           <article class="box">
             <h2>{aboutus}</h2>
             <p class="paragraph">{paragraph2}</p>
+            <picture>
+              <img src={s.url} alt="Logo" />
+              <p>{stage}</p>
+            </picture>
 
             <p>{sti}</p>
             <p>{cnpj}</p>
