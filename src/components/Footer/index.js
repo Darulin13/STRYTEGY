@@ -59,7 +59,45 @@ export function Footer() {
 
   return (
     <S.Container>
-      <div>{}</div>
+      <S.Sec>
+        <div>
+          <h1>{title}</h1>
+          <p>{paragraph1}</p>
+          <button>{startnow}</button>
+        </div>
+      </S.Sec>
+      <S.Sec2>
+        <div>
+          <article>
+            <h2>{social}</h2>
+            <nav>
+              <p>{instagram}</p>
+              <p>{facebook}</p>
+              <p>{linkedin}</p>
+              <p>{blog}</p>
+            </nav>
+          </article>
+          <article>
+            <h2>{help}</h2>
+            <nav>
+              <p>{faq}</p>
+              <p>{term}</p>
+
+              <p>{privacy}</p>
+              <p>{support}</p>
+            </nav>
+          </article>
+        </div>
+        <div>
+          <article class="box">
+            <h2>{aboutus}</h2>
+            <p class="paragraph">{paragraph2}</p>
+
+            <p>{sti}</p>
+            <p>{cnpj}</p>
+          </article>
+        </div>
+      </S.Sec2>
     </S.Container>
   );
 }

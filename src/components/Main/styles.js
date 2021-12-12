@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 400vh;
+  height: 450vh;
 `;
 export const Sec1 = styled.section`
   width: 100%;
@@ -177,9 +177,11 @@ export const Sec6 = styled.section`
   h1 {
     font-size: 30px;
     font-weight: 700;
-    color: #191970;
+    color: black;
+        align-self: center;
   }
   p {
+    
   }
   img {
     width: 80%;
@@ -190,6 +192,7 @@ export const Sec6 = styled.section`
     flex-direction: column;
     border: solid blue;
     align-items: center;
+    
   }
   picture {
     border: solid red;
@@ -197,6 +200,11 @@ export const Sec6 = styled.section`
     flex-direction: row;
     justify-content: start;
     align-self: start;
+    height:8vh;
+
+  }
+  .info{
+    height:5vh;
   }
   .symbol {
     border-radius: 50%;

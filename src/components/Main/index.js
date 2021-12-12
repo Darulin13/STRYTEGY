@@ -179,7 +179,7 @@ export function Main() {
           </article>
           <picture>
             <img class="symbol" src={s.url} alt="Symbol" />
-            <article>
+            <article class="info">
               <p>{strytegy}</p>
               <p>{strytegy}</p>
             </article>
